@@ -1,8 +1,9 @@
 function lifeInWeeks(age) {
     //Write your code here.
-    var days = (90-age)*365;
-    var weeks = (90-age)*52;
-    var months = (90-age)*12;
+    var yearsLeft = (90-age);
+    var days = yearsLeft*365;
+    var weeks = yearsLeft*52;
+    var months = yearsLeft*12;
     console.log("You have "+days+" days, "+weeks+" weeks, and "+months+" months left.");
 }
 
